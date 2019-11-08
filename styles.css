@@ -1,0 +1,90 @@
+#content-container{
+    background: rgb(247, 245, 245);
+    padding: 20px;
+}
+
+#content-section1{
+    padding: 20px;
+    margin: 30px;
+    margin-top: 30px;
+}
+
+.content-form{
+   box-sizing: inherit;
+    
+}
+
+#content-firstlink{
+    color: rgb(143, 58, 167);
+}
+
+#content-first-btn{
+    height: 60px;
+    width: 100%;
+    border: 1px solid #756cb2;
+    color: #756cb2;
+}
+
+h1, h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+#content-paragraph{
+    line-height: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+#content-contact{
+    margin: 30px;
+}
+
+#content-textbox{
+    width: 100%;
+    height: 40px;
+}
+
+#content-checkbox{
+    line-height: 2px;
+    font-weight: 60;
+    font-size: 0.75rem;
+}
+#content-submit{
+    background: #000;
+    color: #fff;
+}
+
+#content-submit2{
+    background: #756cb2;
+    color: #fff;
+}
+
+p.card-body, h1.card-body{
+    text-align: center;
+}
+
+#content-card{
+    width: 50%;
+    margin: auto;
+    box-shadow: blueviolet;
+    text-align: center;
+    padding: 40px;
+    background: #756cb2;
+    margin-bottom: 10%;
+}
+.content-para{
+    color: white;
+}
+.content-icon{
+    size: 60px;
+    color: white;
+}
+
+.content-semiheader{
+    margin: 30px;
+}
+#content-container2{
+    padding: 50px;
+}
+#content-container2-header{
+    font-size: 5rem;
+}

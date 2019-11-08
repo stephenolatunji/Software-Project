@@ -5,12 +5,212 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
 </head>
 <body>
+    <div class="container-fluid" id="content-container">
+        <div class="row" id="content-section1">
+            <div class="col-4">
+                <img src="https://res.cloudinary.com/absoluttweb/image/upload/w_305/fleslandflis/nytt-bad-renovert-i-bergen.jpg"
+                    alt="">
+            </div>
+            <div class="col-8" id="content-paragraph">
+                <h1>Vi garanterer profesjonell og sikker renovering</h1>
+                <p><strong>Flesland Flis leverer høy kvalitet på sine bad. Vi er 3 store selskaper som samarbeider om "nytt
+                        bad på 10 dager", og
+                        alle har ett godt omdømme i Bergen. I mer enn 15 år har vi bygget over 100 bad i året. Vi er her
+                        gjennom hele
+                        garantitiden!</strong></p>
+                <p>De 3 selskapene som har gitt denne garantien i en årrekke er:<a href="#" id="content-firstlink"> Rørlegger Hagenes AS, Bergen
+                        Elektro Automasjon </a> og
+                    Flesland Flis.</p>
+                <p>Vi kan gi denne enestående garantien fordi vi jobber med samme fokus – Topp håndverk, topp service og
+                    fornuftige priser!
+                    Vi er samkjørte og fleksible. Og det beste av alt – du trenger bare å forholde deg til en av oss! Resten
+                    ordner vi!</p>
+                <input type="submit" value="BESTILL GRATIS BEFARING" id="content-first-btn">
+            </div>
+        </div>
+        <h1 class="content-semiheader">Trenger du Flislegger?</h1>
+        <div class="row" id="content-contact">
+            <div class="col-6">
+                <form class="content-form">
+                
+                    <div>
+                        <label for="name">Navn</label><br>
+                        <input type="text" id="content-textbox">
+                    </div>  
+                    <div>
+                        <label for="tel">Mobil</label><br>
+                        <input type="tel" id="content-textbox">
+                    </div>   
+                    <div>
+                        <label for="email">Epost</label><br>
+                        <input type="email" id="content-textbox">
+                    </div>
+                    <div> 
+                        <label for="message">Din melding</label><br>
+                        <textarea cols="67" rows="3"></textarea>
+                    </div>
+                
+                </form>
+            </div>
+            <div class="col-6">
+                <p><strong>Valgfritt:</strong>Kryss av de punkter henvendelsen gjelder. Vi vil behandle skjemaet
+                    fortløpende, og du får alltid svar innen 1
+                    arbeidsdag.</p>
+                <div class="row">
+                    <div class="col-sm-6" id="content-checkbox">
+                        <p>
+                        <label for="">
+                            <input type="checkbox">
+                            Nytt bad på 10 dager
     
+                        </label>
+                        </p>
+                        <p>
+                        <label for="">
+                            <input type="checkbox">
+                            Vinduer
+    
+                        </label>
+                        </p>
+                        <p>
+                        <label for="">
+                            <input type="checkbox">
+                            Takvindu
+    
+                        </label>
+                        </p>
+                        <p>
+                        <label for="">
+                            <input type="checkbox">
+                            Dør
+    
+                        </label>
+                        </p>
+                        <p>
+                        <label for="">
+                            <input type="checkbox">
+                            Gulv
+    
+                        </label>
+                        </p>
+                        <p>
+                        <label for="">
+                            <input type="checkbox">
+                            Vegger
+    
+                        </label>
+                        </p>
+                        <p>
+                        <label for="">
+                            <input type="checkbox">
+                            Varmekabler
+    
+                        </label>
+                        </p>
+                        <p>
+                        <label for="">
+                            <input type="checkbox">
+                            Fliser kjøkken
+    
+                        </label>
+                        </p>
+                    </div>
+                    <div class="col-sm-6" id="content-checkbox">
+                        <p>
+                        <label for="">
+                            <input type="checkbox">
+                            Fliser gang
+    
+                        </label>
+                        </p>
+                        <p>
+                        <label for="">
+                            <input type="checkbox">
+                            Fliser/Naturstein ute
+    
+                        </label>
+                        </p>
+                        <p>
+                        <label for="">
+                            <input type="checkbox">
+                            Terrasse
+    
+                        </label>
+                        </p>
+                        <p>
+                        <label for="">
+                            <input type="checkbox">
+                            Tømrertjenester
+    
+                        </label>
+                        </p>
+                        <p>
+                        <label for="">
+                            <input type="checkbox">
+                            Murertjenester
+    
+                        </label>
+                        </p>
+                        <p>
+                        <label for="">
+                            <input type="checkbox">
+                            Elektrikertjenester
+    
+                        </label>
+                        </p>
+                        <p>
+                        <label for="">
+                            <input type="checkbox">
+                            Rørleggertjenester
+    
+                        </label>
+                        </p>
+                        <p>
+                        <label for="">
+                            <input type="checkbox">
+                            Annet
+    
+                        </label>
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <input type="submit" class="button-primary" value="SEND SKJEMA" id="content-submit">
+                <label type="submit" class="button-secondary" id="content-submit2"><i class="fad fa-upload"></i>VEDLEGG</label>
+             
+            </div>
+        </div>
+    
+    </div>
+    <div class="container-fluid" id="content-container2">
+        <h1 class="card-body" id="content-container2-header">Hold deg oppdatert!</h1>
+        <p class="card-body">
+            <a href="#"><strong>Følg oss på Facebook</strong></a>
+        </p>
+        <div class="card" id="content-card">
+            <div class="card-body">
+                <p class="content-para">
+                    
+                    <a href="#">
+                        <i class="far fa-edit" id="content-icon"></i><br>
+                        <span>PRØV DINE IDEER</span>
+                        <p>DIGITALT SHOWROOM</p>
+                    </a>
+                </p>
+                
+                <p>Bergersen Flis har tilgjengelig et digitalt Showroom, hvor du kan prøve ulike fliskombinasjoner i et
+                    virtuelt miljø.</p>
+            </div>
+        </div>
+    
+    </div>
 </body>
 </html>
    
